@@ -2,13 +2,11 @@
 
 A quick swipe game that trains you to spot phishing emails and scam texts. You get a message, you decide if it's a scam or real, and then it shows you exactly what gave it away.
 
-![Phish or Legit showing a scam email with its red flags highlighted](docs/screenshot.png)
-
 ## Why I made this
 
-Most security training is a slideshow nobody remembers. I work in IT and I'm also an RA, and I kept seeing people fall for the same few tricks. Back at PepsiCo I trained 50+ operators on new systems and the one thing that always worked was keeping it hands-on and explaining stuff in one plain sentence. So I turned that into a game.
+Most security training is a slideshow nobody remembers. I work in IT and I'm also an RA, and I kept seeing people fall for the same few tricks. Back at PepsiCo I trained 50+ operators on new systems and the one thing that always worked was keeping it and explaining stuff in one plain sentence. So I turned that into a game.
 
-I ran it with the first-year students on my residence floor as a security activity. People got competitive with it, which honestly was the point.
+I ran it with the first-year students on my residence floor as a security activity. People got competitive with it, which honestly was the point Also a way to understand how to keep their accounts secured.
 
 ## How it plays
 
@@ -101,24 +99,6 @@ The game logic is tested with Vitest:
 - real messages have no red flags and explain why they're safe
 - OpenPhish links always come out defanged
 - scoring, streaks, lives and difficulty levels work the way they should
-
-## Project layout
-
-```
-src/
-  game/
-    generator.ts    builds every message
-    attack.ts       MITRE ATT&CK ids
-    scoring.ts      points, streaks, lives, levels, weak-spot report
-    storage.ts      best score and group results (saved in the browser)
-    markup.ts       how red flags are written inside messages
-    defang.ts       makes real phishing links unclickable
-  components/       the React UI
-  data/
-    openphish.json  saved sample from the feed
-scripts/
-  fetch-openphish.mjs
-```
 
 ## Built with
 
