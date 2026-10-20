@@ -4,7 +4,7 @@ A quick swipe game that trains you to spot phishing emails and scam texts. You g
 
 ## Why I made this
 
-Most security training is a slideshow nobody remembers. I work in IT and I'm also an RA, and I kept seeing people fall for the same few tricks. Back at PepsiCo I trained 50+ operators on new systems and the one thing that always worked was keeping it and explaining stuff in one plain sentence. So I turned that into a game.
+Most security training is a slideshow nobody remembers. I work in IT and I'm also an RA, and I kept seeing people fall for the same few tricks. Back at PepsiCo I trained 50+ operators on new system (SAP) and the one thing that always worked was keeping it and explaining stuff in one plain sentence not in a technical way. So I turned that into a game during our pre-shifts.
 
 I ran it with the first-year students on my residence floor as a security activity. People got competitive with it, which honestly was the point Also a way to understand how to keep their accounts secured.
 
